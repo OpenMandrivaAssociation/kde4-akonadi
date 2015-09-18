@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   akonadi-1.12.1.tar.bz2: 1ad560a83f08521592b1041c49b5415ffbb2581b
+sources:
+  akonadi-1.13.0.tar.bz2: 9d594b5840e2e5d90057a7e5d8545004a3476bc0

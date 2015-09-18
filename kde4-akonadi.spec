@@ -14,7 +14,7 @@ Url:		http://pim.kde.org/akonadi/
 %else
 %define ftpdir stable
 %endif
-Source0:	ftp://ftp.kde.org/pub/kde/%{ftpdir}/akonadi/src/%{oname}-%{version}.tar.bz2
+Source0:	http://download.kde.org/%{ftpdir}/akonadi/src/%{oname}-%{version}.tar.bz2
 BuildRequires:	automoc
 BuildRequires:	kde4-macros
 BuildRequires:	libxml2-utils
