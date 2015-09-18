@@ -3,7 +3,7 @@
 Summary:	An extensible cross-desktop storage service for PIM
 Name:		kde4-akonadi
 Version:	1.13.0
-Release:	4
+Release:	5
 Epoch:		1
 License:	LGPLv2+
 Group:		Networking/WWW
@@ -49,6 +49,7 @@ providing concurrent read, write, and query access.
 %{_kde_bindir}/*
 %{_sysconfdir}/akonadi
 %{_datadir}/dbus-1/services/*
+%{_kde_datadir}/dbus-1/interfaces/*.xml
 %{_datadir}/mime/packages/akonadi-mime.xml
 %{_libdir}/qt4/plugins/sqldrivers/libqsqlite3.so
 
@@ -83,7 +84,6 @@ based on %{name}
 %{_kde_libdir}/*.so
 %{_kde_libdir}/pkgconfig/akonadi.pc
 %{_kde_libdir}/cmake/Akonadi
-%{_kde_datadir}/dbus-1/interfaces/*.xml
 
 #--------------------------------------------------------------------
 
